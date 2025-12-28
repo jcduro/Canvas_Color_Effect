@@ -1,0 +1,93 @@
+  body {
+      background: #000814;
+      color: #e0f7ff;
+      font-family: 'Open Sans', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+    }
+
+    .tshirt-module {
+      background-color: #0c243cdd;
+      border-radius: 12px;
+      border: 2px solid #00fff3;
+      box-shadow: 0 0 44px #53e7ff38;
+      padding: 20px 24px;
+      text-align: center;
+      max-width: 520px;
+      width: 100%;
+    }
+
+    .tshirt-module h1 {
+      margin-bottom: 16px;
+      color: #00ffff;
+      text-shadow:
+        0 0 5px #00ffea,
+        0 0 10px #00fbd3,
+        0 0 15px #00ddb3;
+      font-size: 2rem;
+      letter-spacing: 1px;
+    }
+
+    .neon-select {
+      background: #001020;
+      border: 2px solid #00fff3;
+      color: #00fff3;
+      border-radius: 8px;
+      padding: 6px 10px;
+      font-family: 'Orbitron', monospace;
+      box-shadow: 0 0 10px #00eaff55;
+      margin-bottom: 16px;
+      min-width: 220px;
+    }
+
+    .neon-select:focus {
+      outline: none;
+      box-shadow: 0 0 16px #00fff3;
+    }
+
+    .tshirt-wrapper {
+      margin: 0 auto;
+      padding: 15px;
+      border-radius: 12px;
+      border: 2px solid #00fff3;
+      box-shadow: 0 0 30px #00eaff33;
+      display: inline-block;
+      background: #00101f;
+    }
+
+    #tshirtCanvas {
+      display: block;
+      width: 280px;
+      height: auto;
+    }
+
+    /* Responsive móviles */
+    @media (max-width: 576px) {
+      .tshirt-module {
+        max-width: 100%;
+        padding: 16px 12px;
+      }
+
+      .tshirt-module h1 {
+        font-size: 1.6rem;
+      }
+
+      .neon-select {
+        width: 100%;
+        font-size: 0.9rem;
+        padding: 6px 8px;
+      }
+
+      .tshirt-wrapper {
+        width: 100%;
+        max-width: 320px;
+        padding: 10px;
+      }
+
+      #tshirtCanvas {
+        width: 100%;
+        height: auto;
+      }
+    }
