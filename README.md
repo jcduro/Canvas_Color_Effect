@@ -43,13 +43,15 @@ CREATE TABLE `colores_bex` (
   `rgb_color` varchar(50)  NOT NULL, -- guarda hex ej: "#00ffff"
   PRIMARY KEY (`id_color`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
-Ejemplos de registros:
+
 
  ```
 
 ---
 
  ```text
+
+Ejemplos de registros:
 
 sql
 INSERT INTO colores (colores, rgb_color) VALUES
